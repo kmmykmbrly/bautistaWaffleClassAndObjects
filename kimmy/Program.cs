@@ -1,4 +1,4 @@
-﻿namespace kimmy
+namespace kimmy
 {
     internal class Program
     {
@@ -12,7 +12,7 @@
             while (Menu)
             {
                 WaffleList waffleList = new WaffleList();
-                waffleList.waffleMenu();
+                waffleList.MenuOfwaffle();
                 string userInput = Console.ReadLine();
                 if (userInput == "1")
                 {
